@@ -1,17 +1,20 @@
-public class Student{
-  //attribute = variable BUT it is spsecific to THIS data type THIS class
-private String name = "anon";
-//methods ARE actions or things taht the data type can do
-public void setName(String name){
-  this.name = name;
-}
+public class Student {
+  // Attributes
+  String name = "Stevie";
+  int grade;
 
-public String getName(){
-  
-  return name;
-}
+  //Constructor
 
-public static void main(String[] args) {}
+  // Methods
+  public String getName() {
+    return name;
+  }
 
+  public int getGrade() {
+    return grade;
+  }
 
+  public void setName(String aName){
+    name = aName;
+  }
 }

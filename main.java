@@ -1,3 +1,30 @@
+class main {
+  public static void main(String[] args) {
+    Student freshPerson;
+    Student sophmore;
+    Student junior;
+    Student graduate;
+
+    freshPerson = new Student();
+    freshPerson.setName("New Student");
+    sophmore = new Student();
+    sophmore.setName("Returning Student");
+    junior = new Student();
+    junior.setName("Pre College Stressed Student");
+    graduate = new Student();
+
+    System.out.printf("Hello %s!\n",freshPerson.getName());
+    System.out.printf("Hello %s!\n",sophmore.getName());
+    System.out.printf("Hello %s!\n",junior.getName());
+    System.out.printf("Hello %s!\n",graduate.getName());
+
+  }
+
+  int adder() {
+    return 2 + 2;
+  }
+}
+/*
 public class main {
 
 public static void main(String[] args) {
@@ -19,3 +46,4 @@ public static void main(String[] args) {
 
 }
 }
+*/
