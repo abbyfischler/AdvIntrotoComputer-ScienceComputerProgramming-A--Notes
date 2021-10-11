@@ -9,6 +9,9 @@ java Student
 javac sept22.java
 java sept22
 
+javac octob6.java
+java octob6
+
 
 #javac sept10.java
 #java sept10
