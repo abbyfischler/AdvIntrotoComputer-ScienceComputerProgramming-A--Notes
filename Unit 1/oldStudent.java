@@ -1,4 +1,4 @@
-public class Student {
+public class oldStudent {
   // Attributes
   String name = "Stevie";
   int grade;
